@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { render } from "react-dom";
 import HomePage from "./HomePage";
 
-
 // export default class App extends Component {
 //     constructor(props) {
 //         super(props);
@@ -16,12 +15,12 @@ import HomePage from "./HomePage";
 // }
 
 export default function App(props) {
-    return (
-        <div>
-        <h1>Testing React Code - {props.name}</h1>
-        <HomePage />
-        </div>
-    )
+  return (
+    <div>
+      <h1>Testing React Code - {props.name}</h1>
+      <HomePage />
+    </div>
+  );
 }
 
 const appDiv = document.getElementById("app");
